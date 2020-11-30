@@ -169,8 +169,10 @@ def player_numbers(team_name)
   end 
 end 
 
-def player_stats
+def player_stats(player_name)
   game_hash.each do |key, value|
     value[:player].each do |inner_key|
+      if inner_key[:player_name] == player_name
+        
     
     
