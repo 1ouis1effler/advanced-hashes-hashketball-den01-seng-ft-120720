@@ -171,5 +171,6 @@ end
 
 def player_stats
   game_hash.each do |key, value|
+    if value
     
     
