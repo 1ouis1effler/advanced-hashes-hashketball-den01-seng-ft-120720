@@ -164,8 +164,7 @@ end
 def player_numbers(team_name)
   game_hash.each do |key, value|
     if value[:team_name] == team_name
-      return value[:players].map {|jersey_numbers| jersey_numbers
-      
+      return value[:players].map {|jersey_numbers| jersey_numbers[:number]}
     end 
   end 
 end 
