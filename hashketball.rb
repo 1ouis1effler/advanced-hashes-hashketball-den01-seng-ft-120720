@@ -163,9 +163,6 @@ end
 
 def player_numbers(team_name)
   game_hash.each do |key, value|
-    if key[value
+    if [:team_name]
       return value[:player_numbers]
-    end 
-  end 
-end 
     
